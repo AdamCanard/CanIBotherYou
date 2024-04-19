@@ -52,29 +52,29 @@ export default function TitleScreen() {
       >
         <div
           ref={oneRef}
-          className="flex z-10 h-7/8 w-7/8 bg-[#AE4FD2] rounded-full justify-center items-center absolute animate-fall1"
+          className="flex z-10 h-14/8 w-7/8 bg-[#AE4FD2] rounded-circle justify-center items-center shadow-drop absolute animate-fall1"
         ></div>
 
         <div
           ref={twoRef}
-          className="flex z-20 h-6/8 w-6/8 bg-[#CC59D2] rounded-full justify-center items-center absolute animate-fall2"
+          className="flex z-20 h-12/8 w-6/8 bg-[#CC59D2] rounded-circle justify-center items-center shadow-drop absolute animate-fall2"
         ></div>
 
         <div
           ref={threeRef}
-          className="flex z-30 h-5/8 w-5/8 bg-[#F487B6] rounded-full justify-center items-center absolute animate-fall3"
+          className="flex z-30 h-10/8 w-5/8 bg-[#F487B6] rounded-circle justify-center items-center shadow-drop absolute animate-fall3"
         ></div>
 
         <div
           ref={fourRef}
-          className="flex z-40 h-4/8 w-4/8 bg-[#FDE12D] rounded-full justify-center items-center absolute animate-fall4"
+          className="flex z-40 h-8/8 w-4/8 bg-[#FDE12D] rounded-circle justify-center items-center shadow-drop absolute animate-fall4"
         ></div>
 
         <div
           ref={fiveRef}
           className="flex z-50 h-3/8 w-3/8 justify-center items-center animate-fall5"
         >
-          <h1 className="flex text-8xl text-center">CAN I BOTHER YOU?</h1>
+          <h1 className="flex text-9xl text-center">CAN I BOTHER YOU?</h1>
           {/* <h1 className="flex text-9xl text-center">C</h1>
                   <h1 className="flex text-9xl text-center">A</h1>
                   <h1 className="flex text-9xl text-center">N</h1>
