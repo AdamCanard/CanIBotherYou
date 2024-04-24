@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
-export default function TitleScreen() {
+export default function AnimatedScreen({ setFlag }) {
   const [follow, setFollow] = useState(null);
   const outerRef = useRef(null);
   const oneRef = useRef(null);
@@ -9,6 +9,7 @@ export default function TitleScreen() {
   const threeRef = useRef(null);
   const fourRef = useRef(null);
   const fiveRef = useRef(null);
+  const lastRef = useRef(null);
 
   useEffect(() => {
     if (follow === null) {
@@ -32,6 +33,7 @@ export default function TitleScreen() {
     var three = threeRef.current;
     var four = fourRef.current;
     var five = fiveRef.current;
+    var last = lastRef.current;
     var outer = outerRef.current;
 
     outer.scrollIntoView();
@@ -55,6 +57,9 @@ export default function TitleScreen() {
     five.onanimationstart = () => {
       setFollow(null);
       outer.scrollIntoView({ block: "start", inline: "center" });
+    };
+    last.onanimationend = () => {
+      setFlag(false);
     };
   }, []);
 
@@ -112,7 +117,12 @@ export default function TitleScreen() {
             <h1 className="flex text-9xl text-center animate-zoom7">Y</h1>
             <h1 className="flex text-9xl text-center animate-zoom2">O</h1>
             <h1 className="flex text-9xl text-center animate-zoom4">U</h1>
-            <h1 className="flex text-9xl text-center animate-zoom6">?</h1>
+            <h1
+              ref={lastRef}
+              className="flex text-9xl text-center animate-zoom6"
+            >
+              ?
+            </h1>
           </div>
         </div>
       </div>
