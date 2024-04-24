@@ -17,7 +17,13 @@ module.exports = {
         fall2: "fall2 .5s 1.6s ease-in both",
         fall3: "fall3 .5s 2.2s ease-in both",
         fall4: "fall4 .5s 2.8s ease-in both",
-        fall5: "fall5 .5s 3.4s ease-in both",
+        zoom1: "zoom1 .5s 3.5s ease-in both",
+        zoom2: "zoom2 .5s 3.6s ease-in both",
+        zoom3: "zoom3 .5s 3.7s ease-in both",
+        zoom4: "zoom4 .5s 3.8s ease-in both",
+        zoom5: "zoom5 .5s 3.9s ease-in both",
+        zoom6: "zoom6 .5s 4s ease-in both",
+        zoom7: "zoom7 .5s 4.1s ease-in both",
       },
       keyframes: {
         fall1: {
@@ -57,9 +63,63 @@ module.exports = {
             padding: ".4rem 0",
           },
         },
-        fall5: {
+        zoom1: {
           from: {
-            transform: "translatey(-500px)",
+            transform: "translatey(-600px) translatex(600px)",
+          },
+          to: {
+            transition: "all var(--spring-duration) var(--spring-easing)",
+            padding: ".4rem 0",
+          },
+        },
+        zoom2: {
+          from: {
+            transform: "translatey(600px) translatex(-600px)",
+          },
+          to: {
+            transition: "all var(--spring-duration) var(--spring-easing)",
+            padding: ".4rem 0",
+          },
+        },
+        zoom3: {
+          from: {
+            transform: "translatey(-600px) translatex(-600px)",
+          },
+          to: {
+            transition: "all var(--spring-duration) var(--spring-easing)",
+            padding: ".4rem 0",
+          },
+        },
+        zoom4: {
+          from: {
+            transform: "translatey(-600px)",
+          },
+          to: {
+            transition: "all var(--spring-duration) var(--spring-easing)",
+            padding: ".4rem 0",
+          },
+        },
+        zoom5: {
+          from: {
+            transform: "translatey(600px) translatex(600px)",
+          },
+          to: {
+            transition: "all var(--spring-duration) var(--spring-easing)",
+            padding: ".4rem 0",
+          },
+        },
+        zoom6: {
+          from: {
+            transform: "translatey(-600px) translatex(600px)",
+          },
+          to: {
+            transition: "all var(--spring-duration) var(--spring-easing)",
+            padding: ".4rem 0",
+          },
+        },
+        zoom7: {
+          from: {
+            transform: "translatey(600px)",
           },
           to: {
             transition: "all var(--spring-duration) var(--spring-easing)",

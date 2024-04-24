@@ -92,28 +92,27 @@ export default function TitleScreen() {
         <div
           ref={fiveRef}
           id="five"
-          className="flex flex-col z-50 h-3/8 w-3/8 justify-center items-center animate-fall5"
+          className="flex flex-col z-50 h-3/8 w-3/8 justify-center items-center"
         >
           <div className="flex flex-row">
-            <h1 className="flex text-9xl text-center">C</h1>
-            <h1 className="flex text-9xl text-center">A</h1>
-            <h1 className="flex text-9xl text-center">N</h1>
-            <h1 className="flex text-9xl text-center">&nbsp;</h1>
-            <h1 className="flex text-9xl text-center">I</h1>
+            <h1 className="flex text-9xl text-center animate-zoom1">C</h1>
+            <h1 className="flex text-9xl text-center animate-zoom3">A</h1>
+            <h1 className="flex text-9xl text-center animate-zoom5">N&nbsp;</h1>
+            <h1 className="flex text-9xl text-center animate-zoom7">I</h1>
           </div>
           <div className="flex flex-row">
-            <h1 className="flex text-9xl text-center">B</h1>
-            <h1 className="flex text-9xl text-center">O</h1>
-            <h1 className="flex text-9xl text-center">T</h1>
-            <h1 className="flex text-9xl text-center">H</h1>
-            <h1 className="flex text-9xl text-center">E</h1>
-            <h1 className="flex text-9xl text-center">R</h1>
+            <h1 className="flex text-9xl text-center animate-zoom2">B</h1>
+            <h1 className="flex text-9xl text-center animate-zoom4">O</h1>
+            <h1 className="flex text-9xl text-center animate-zoom6">T</h1>
+            <h1 className="flex text-9xl text-center animate-zoom1">H</h1>
+            <h1 className="flex text-9xl text-center animate-zoom3">E</h1>
+            <h1 className="flex text-9xl text-center animate-zoom5">R</h1>
           </div>
           <div className="flex flex-row">
-            <h1 className="flex text-9xl text-center">Y</h1>
-            <h1 className="flex text-9xl text-center">O</h1>
-            <h1 className="flex text-9xl text-center">U</h1>
-            <h1 className="flex text-9xl text-center">?</h1>
+            <h1 className="flex text-9xl text-center animate-zoom7">Y</h1>
+            <h1 className="flex text-9xl text-center animate-zoom2">O</h1>
+            <h1 className="flex text-9xl text-center animate-zoom4">U</h1>
+            <h1 className="flex text-9xl text-center animate-zoom6">?</h1>
           </div>
         </div>
       </div>
