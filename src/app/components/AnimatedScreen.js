@@ -19,7 +19,7 @@ export default function AnimatedScreen({ setFlag }) {
           block: "center",
           inline: "center",
         });
-      }, 10);
+      }, 5);
 
       return () => {
         clearInterval(interval);
