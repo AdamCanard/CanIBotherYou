@@ -13,11 +13,11 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
-        fall1: "fall1 .5s .5s ease-in both",
-        fall2: "fall2 .5s 1s ease-in both",
-        fall3: "fall3 .5s 1.5s ease-in both",
-        fall4: "fall4 .5s 2s ease-in both",
-        fall5: "fall5 .5s 2.5s ease-in both",
+        fall1: "fall1 .5s 1s ease-in both",
+        fall2: "fall2 .5s 1.6s ease-in both",
+        fall3: "fall3 .5s 2.2s ease-in both",
+        fall4: "fall4 .5s 2.8s ease-in both",
+        fall5: "fall5 .5s 3.4s ease-in both",
       },
       keyframes: {
         fall1: {
