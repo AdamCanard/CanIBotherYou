@@ -22,7 +22,7 @@ module.exports = {
         zoom3: "zoom3 .5s 3.7s ease-in both",
         zoom4: "zoom4 .5s 3.8s ease-in both",
         zoom5: "zoom5 .5s 3.9s ease-in both",
-        zoom6: "zoom6 2s 4s ease-in both",
+        zoom6: "zoom6 .5s 4s ease-in both",
         zoom7: "zoom7 .5s 4.1s ease-in both",
       },
       keyframes: {

@@ -44,15 +44,6 @@
   }
 }
 
-&[data-state="start"] {
-  div {
-    transform: rotate(-8deg) translatey(-406px);
-  }
-}
-
-&[data-state="end"] {
-  div {
-    padding: 0.4rem 0;
-    transition: all var(--spring-duration);
-  }
+body {
+  overflow: hidden;
 }

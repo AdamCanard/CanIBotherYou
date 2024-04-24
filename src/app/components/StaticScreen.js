@@ -10,7 +10,7 @@ export default function StaticScreen() {
 
         <div className="flex z-40 h-8/8 w-4/8 bg-[#FDE12D] rounded-circle justify-center items-center shadow-drop absolute"></div>
 
-        <div className="flex flex-col z-50 h-3/8 w-3/8 justify-center items-center gap-4">
+        <div className="flex flex-col z-50 h-3/8 w-3/8 justify-center items-center gap-3">
           <div className="flex flex-row">
             <h1 className="flex text-9xl text-center">C</h1>
             <h1 className="flex text-9xl text-center">A</h1>
