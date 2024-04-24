@@ -5,7 +5,7 @@ import MainScreen from "./components/MainScreen";
 import { TitleWrapper } from "./components/TitleWrapper";
 
 export default function Home() {
-  const [flag, setFlag] = useState(false);
+  const [flag, setFlag] = useState(true);
   return (
     <>
       <TitleWrapper flag={flag}>
