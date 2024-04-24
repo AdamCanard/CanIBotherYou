@@ -24,6 +24,10 @@ module.exports = {
         zoom5: "zoom5 .5s 3.7s ease-in both",
         zoom6: "zoom6 .5s 3.8s ease-in both",
         zoom7: "zoom7 .5s 3.9s ease-in both",
+        button1: "button1 1s 1s ease-in both",
+        button2: "button2 1s 1s ease-in both",
+        button3: "button3 1s 1s ease-in both",
+        button4: "button4 1s 1s ease-in both",
       },
       keyframes: {
         fall1: {
@@ -124,6 +128,38 @@ module.exports = {
           to: {
             transition: "all var(--spring-duration) var(--spring-easing)",
             padding: ".4rem 0",
+          },
+        },
+        button1: {
+          from: {
+            transform: "translatey(-700px)",
+          },
+          to: {
+            transform: "all var(--spring-duration) var(--spring-easing)",
+          },
+        },
+        button2: {
+          from: {
+            transform: "translatey(-700px)",
+          },
+          to: {
+            transform: "all var(--spring-duration) var(--spring-easing)",
+          },
+        },
+        button3: {
+          from: {
+            transform: "translatey(-700px)",
+          },
+          to: {
+            transform: "all var(--spring-duration) var(--spring-easing)",
+          },
+        },
+        button4: {
+          from: {
+            transform: "translatey(-700px)",
+          },
+          to: {
+            transform: "all var(--spring-duration) var(--spring-easing)",
           },
         },
       },
