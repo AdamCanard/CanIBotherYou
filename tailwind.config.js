@@ -23,9 +23,19 @@ module.exports = {
         zoom4: "zoom4 .5s 3.6s ease-in both",
         zoom5: "zoom5 .5s 3.7s ease-in both",
         zoom6: "zoom6 .5s 3.8s ease-in both",
-        zoom7: "zoom7 .5s 3.9s ease-in both",
-        buttonTop: "buttonTop 1s 1s ease-in both",
-        buttonBot: "buttonBot 1s 1s ease-in both",
+        zoom7: "zoom7 .5s 4s ease-in both",
+        buttonTopLeft: "buttonTopLeft .5s .5s ease-in both",
+        buttonTopRight: "buttonTopRight .5s .5s ease-in both",
+        buttonBotLeft: "buttonBotLeft .5s .5s ease-in both",
+        buttonBotRight: "buttonBotRight .5s .5s ease-in both",
+        FillTopLeft: "FillTopLeft .5s ease both",
+        EmptyTopLeft: "EmptyTopLeft .5s ease both",
+        FillTopRight: "FillTopRight .5s ease both",
+        EmptyTopRight: "EmptyTopRight .5s ease both",
+        FillBotLeft: "FillBotLeft .5s ease both",
+        EmptyBotLeft: "EmptyBotLeft .5s ease both",
+        FillBotRight: "FillBotRight .5s ease both",
+        EmptyBotRight: "EmptyBotRight .5s ease both",
       },
       keyframes: {
         fall1: {
@@ -128,20 +138,116 @@ module.exports = {
             padding: ".4rem 0",
           },
         },
-        buttonTop: {
+        buttonTopLeft: {
           from: {
-            transform: "translatey(-700px)",
+            transform: "translatey(-500px) translatex(-500px)",
           },
           to: {
             transform: "all var(--spring-duration) var(--spring-easing)",
           },
         },
-        buttonBot: {
+        buttonTopRight: {
           from: {
-            transform: "translatey(700px)",
+            transform: "translatey(-500px) translatex(500px)",
           },
           to: {
             transform: "all var(--spring-duration) var(--spring-easing)",
+          },
+        },
+        buttonBotLeft: {
+          from: {
+            transform: "translatey(500px) translatex(-500px)",
+          },
+          to: {
+            transform: "all var(--spring-duration) var(--spring-easing)",
+          },
+        },
+        buttonBotRight: {
+          from: {
+            transform: "translatey(500px) translatex(500px)",
+          },
+          to: {
+            transform: "all var(--spring-duration) var(--spring-easing)",
+          },
+        },
+        FillTopLeft: {
+          from: {
+            height: "80px",
+            width: "144px",
+          },
+          to: {
+            height: "540px",
+            width: "300px",
+          },
+        },
+        EmptyTopLeft: {
+          from: {
+            height: "540px",
+            width: "300px",
+          },
+          to: {
+            height: "80px",
+            width: "144px",
+          },
+        },
+        FillBotLeft: {
+          from: {
+            height: "80px",
+            width: "144px",
+          },
+          to: {
+            height: "540px",
+            width: "300px",
+          },
+        },
+        EmptyBotLeft: {
+          from: {
+            height: "540px",
+            width: "300px",
+          },
+          to: {
+            height: "80px",
+            width: "144px",
+          },
+        },
+        FillTopRight: {
+          from: {
+            height: "80px",
+            width: "144px",
+          },
+          to: {
+            height: "540px",
+            width: "300px",
+          },
+        },
+        EmptyTopRight: {
+          from: {
+            height: "540px",
+            width: "300px",
+          },
+          to: {
+            height: "80px",
+            width: "144px",
+          },
+        },
+        FillBotRight: {
+          from: {
+            height: "80px",
+            width: "144px",
+          },
+          to: {
+            height: "540px",
+            width: "300px",
+          },
+        },
+        EmptyBotRight: {
+          from: {
+            height: "540px",
+            width: "300px",
+          },
+          to: {
+            height: "80px",
+            width: "144px",
           },
         },
       },
